@@ -20,3 +20,9 @@ public class PairsInArray {
       PrintPairs(numbers);
    }
 }
+
+
+
+
+// Formula to calculate Total Number Of Pairs
+//            tp = n(n-1)/2
