@@ -5,8 +5,8 @@ public class BuyAndSell {
       int maxProfit = 0;
       
    for (int i=0; i<prices.length; i++){
-      if(buyPrice < prices[i]){
-         int profit = prices[i]- buyPrice;
+      if(buyPrice < prices[i]){    //profit
+         int profit = prices[i]- buyPrice; // today's profit
          maxProfit = Math.max(maxProfit, profit);
       }else{
          buyPrice = prices[i];
@@ -19,3 +19,7 @@ public static void main (String []args){
    System.out.println(BuyAndSell(prices));
 }
 }
+
+
+
+//Time complexity is O(n)
