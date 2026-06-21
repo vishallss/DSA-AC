@@ -1,6 +1,6 @@
 public class MaxSubarray {
 
-   public static void MaxSubarray(int numbers[]){
+   public static void MaxSubarraySum(int numbers[]){
       //int ts=0;
       int currSum = 0;               //
       int maxSum = Integer.MIN_VALUE;// 
@@ -27,7 +27,7 @@ public class MaxSubarray {
    }
    public static void main(String[] args){
       int numbers[]= {2,4,6,8,10};
-      MaxSubarray(numbers);
+      MaxSubarraySum(numbers);
       
    }
    

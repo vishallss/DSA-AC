@@ -32,3 +32,8 @@ public class TrappingWater {
    }
 
 }
+
+
+
+
+// Time complexity is O(n) ---> which is realy good time complexity
