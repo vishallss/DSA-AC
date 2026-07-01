@@ -1,17 +1,20 @@
 public class BubbleSort1{
    public static void BubbleSort(int arr[]){
       for(int turn = 0; turn < arr.length-1; turn++){
+         int swap = 0;
          for(int j = 0; j < arr.length-1-turn; j++){
             if(arr[j] > arr[j+1]){
                // swap
                int temp = arr[j];
                arr[j] = arr[j+1];
                arr[j+1] = temp; 
+               swap++;
+               System.out.print(swap+"");
             }
-
          }
       }
    }
+
    public static void printArr(int arr[]){
       for(int i = 0; i < arr.length; i++){
          System.out.print(arr[i]+" ");
@@ -26,3 +29,6 @@ public class BubbleSort1{
       
    }
 }
+
+
+// time complexity =  O(n^2) ----->not that much good more better solutions are present 
